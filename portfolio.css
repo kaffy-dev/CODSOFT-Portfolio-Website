@@ -256,14 +256,7 @@ a {
 
 .skill-content {
     width: 55%;
-    padding: 5px;
-    animation-name: slide-in;
-    animation-duration: 2s;
-    animation-delay: 0s;
-    animation-iteration-count: 1;
-    animation-timeline: view();
-    animation-range-start: cover;
-    animation-range-end: contain;
+    padding: 5px
 }
 
 .skill-info img {
@@ -591,11 +584,15 @@ textarea:focus {
 
 @media screen and (width < 425px) {
     .hero-text {
-        width: 90%;
+        width: 95%;
     }
 
     .hero-text h1 {
-        font-size: 2.4rem;
+        font-size: 2.2rem;
+    }
+
+    .hero-text button a {
+        font-size: 1.1rem;
     }
 
     .whitespace {
@@ -603,7 +600,7 @@ textarea:focus {
     }
 
     .hero-text h3 {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
 
     .about img {
