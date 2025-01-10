@@ -588,7 +588,7 @@ textarea:focus {
     }
 
     .hero-text h1 {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     .hero-text button a {
@@ -600,7 +600,7 @@ textarea:focus {
     }
 
     .hero-text h3 {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
 
     .about img {
@@ -609,7 +609,7 @@ textarea:focus {
     }
 
     .contact-info a {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     }
 
     .contact-info i {
