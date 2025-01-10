@@ -109,9 +109,16 @@ a {
     color: #ac7c00;
 }
 
+.cta {
+    padding: 2px 10px;
+    border-radius: 10px;
+    background-color: #eae7e742;
+    border: 2px solid #4682b4;
+}
+
 .hero {
     background-image: url("img/hero-bg.jpg");
-    filter: brightness(82%);
+    filter: brightness(85%);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right;
@@ -147,16 +154,16 @@ a {
     text-shadow: 5px 5px 6px #ac7b0069;
 }
 
-.hero-text h3 {
+.hero-text h2 {
     font-weight: 600;
     color: #4682b4;
     font-size: 2rem;
 }
 
 .hero-text button {
-    background-color: #d5d3d3;
-    width: 130px;
-    padding: 5px;
+    background-color: #eae7e742;
+    width: 150px;
+    height: 40px;
     margin-top: 10px;
 }
 
@@ -342,13 +349,13 @@ figcaption {
     text-align: center;
     font-size: 1.5rem;
     margin: 10px 0;
-    color: #4682b4;
+    color: #252424;
 }
 
 .project-description p {
     text-align: justify;
     font-size: 1.1rem;
-    color: #4682b4;
+    color: #252424;
 }
 
 
@@ -419,7 +426,7 @@ button {
     color: #4682b4;
     font-size: 1.3rem;
     border-radius: 10px;
-    background-color: #d3d3d3;
+    background-color: #eae7e742;
     border: 2px solid #4682b4;
     outline: none;
     cursor: pointer;
@@ -581,11 +588,7 @@ textarea:focus {
         font-size: 2.5rem;
     }
 
-    .whitespace {
-        white-space: nowrap;
-    }
-
-    .hero-text h3 {
+    .hero-text h2 {
         font-size: 1.8rem;
     }
 
@@ -614,11 +617,7 @@ textarea:focus {
         font-size: 1.1rem;
     }
 
-    .whitespace {
-        white-space: nowrap;
-    }
-
-    .hero-text h3 {
+    .hero-text h2 {
         font-size: 1.4rem;
     }
 
@@ -652,13 +651,6 @@ textarea:focus {
 @media screen and (max-width: 768px) {
     .primary-nav li:nth-child(4) {
         display: none;
-    }
-
-    .cta {
-        padding: 2px 10px;
-        border-radius: 10px;
-        background-color: #d3d3d3;
-        border: 2px solid #4682b4;
     }
 
     .nav-header a {
@@ -728,7 +720,6 @@ textarea:focus {
 }
 
 @media screen and (width < 482px) {
-
     .nav-header,
     .about,
     .contact,
@@ -739,7 +730,6 @@ textarea:focus {
 }
 
 @media screen and (482px < width <=768px) {
-
     .nav-header,
     .about,
     .contact,
@@ -774,16 +764,9 @@ textarea:focus {
         font-size: 1.5rem;
     }
 
-    .cta {
-        border-radius: 10px;
-        padding: 2px 10px;
-        background-color: #d3d3d3;
-        border: 2px solid #4682b4;
-    }
 }
 
 @media screen and (width < 1024px) {
-
     .skills,
     .contact {
         flex-direction: column;
@@ -808,7 +791,6 @@ textarea:focus {
 }
 
 @media screen and (1024px < width < 1200px) {
-
     .about,
     .contact,
     .skills,
