@@ -474,6 +474,26 @@ textarea:focus {
     padding: 15px;
 }
 
+.go-to-top {
+	width: 40px;
+	height: 40px;
+	right: 15px;
+	bottom: 15px;
+	position: fixed;
+	border: 2px solid #4682b4;
+	background-color: #d3d3d3;
+	border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.go-to-top i {
+    font-size: 1.5rem;
+    color: #4682b4;
+}
+
+
 /* Key Frames */
 @keyframes slide-in {
     from {
@@ -484,8 +504,6 @@ textarea:focus {
         transform: translateX(0);
     }
 }
-
-
 
 
 /* Media Queries */
@@ -583,10 +601,6 @@ textarea:focus {
 }
 
 @media screen and (width < 425px) {
-    .primary-nav li {
-        font-size: 1.3rem;
-    }
-
     .hero-text {
         width: 95%;
     }
@@ -605,7 +619,7 @@ textarea:focus {
     }
 
     .hero-text h3 {
-        font-size: 1.3rem;
+        font-size: 1.4rem;
     }
 
     .about img {
