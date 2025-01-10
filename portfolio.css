@@ -583,10 +583,10 @@ textarea:focus {
 }
 
 @media screen and (width < 425px) {
-    .nav-header a {
+    .primary-nav li {
         font-size: 1.3rem;
     }
-    
+
     .hero-text {
         width: 95%;
     }
